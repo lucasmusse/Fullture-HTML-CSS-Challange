@@ -1,0 +1,18 @@
+.header{
+    background-image: url(../assets/assets/captainmarvelheader.jpg);
+}
+
+@media(max-width: 800px ){
+
+    .header{
+        background-image: url(../assets/assets/captainmarvelheader_Mobile.jpg);
+    }
+
+    .header-title{
+        display: none;
+    }
+
+
+
+}
+

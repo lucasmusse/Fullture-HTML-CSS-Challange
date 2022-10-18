@@ -1,0 +1,24 @@
+.button{
+    background:linear-gradient(
+        180deg,
+        rgb(254,116,103) 30%,
+        rgb(252,56,54) 90%
+    );
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+#button-buy{
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}

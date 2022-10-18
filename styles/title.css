@@ -1,0 +1,38 @@
+
+/* FALTA COLOCAR O HOVER - AINDA NÃO CONSEGUI ENCONTRAR COMO FAZER */
+
+.section-title{
+    text-align: center;
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    font-size: 2rem;
+}
+
+/* titulo em branco da section "quem somos" da home */
+
+#white{
+    color: #fff;
+    font-size: 2rem;
+
+    
+    
+}
+
+#white::after{
+    display: block;
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color:#fff ;
+    margin: 8px auto;
+}
+
+.section-title::after{
+    display: block;
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #fe7467 ;
+    margin: 8px auto;
+    
+}

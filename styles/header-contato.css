@@ -1,0 +1,20 @@
+.header{
+    background-image: url(../assets/assets/contatoheader.jpg);
+    
+
+}
+
+@media(max-width: 800px ){
+
+    .header{
+        background-image: url(../assets/assets/contatoheader_mobile.jpg);
+    }
+
+   
+
+
+
+}
+
+
+

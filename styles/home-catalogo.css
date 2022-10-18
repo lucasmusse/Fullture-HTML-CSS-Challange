@@ -1,0 +1,83 @@
+.catalogo{
+    
+    /* VERIFICAR SE ESTA É A MELHOR FORMA DE COLOCAR O TAMANHO DA SECTION */
+
+    margin: 0 auto;
+    /* background-color:aqua; */
+}
+
+
+.section-catalog{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+    
+    
+}
+
+.catalog-article{
+    max-width: 500px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+
+
+
+.image-toys-catalogo{
+    height: 450px;    
+    flex: 0 1 250px;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 25px;
+    font-size: 1.2rem;
+}
+
+/* RESPONSIVO - PRECISA DE AJUSTE */
+
+@media(max-width: 600px ){
+    .catalogo{
+        height: 100%;
+        margin: 0 15px;
+        
+
+    }
+    .section-catalog{
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+        margin:0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        
+    }
+
+    .catalog-article{
+        margin:50px 0 auto;
+        
+        
+    }
+
+    /* TIVE QUE DEFINIR O TAMANHO DA IMAGEM
+    QUERIA DEIXAR RESPONSIVO, NÃO CONSEGUI */
+
+    .image-toys-catalogo{
+        height: 220px;
+        order: 3;
+        
+          
+    }
+
+
+
+}
+
+
+

@@ -1,0 +1,20 @@
+.section-contact{
+    max-width: 1500px;
+    margin: auto;
+    background-color: #fff;
+    height: 100vh;
+}
+
+.section-contact-description{
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 500px;
+}
+
+.section-description{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+

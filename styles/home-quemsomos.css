@@ -1,0 +1,63 @@
+.section-quem-somos{
+
+    /* VERIFICAR SE ESTA É A MELHOR FORMA DE COLOCAR O TAMANHO DA SECTION */  
+    background-image: url(../assets/assets/thor_header.jpg);
+
+    
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+
+    
+}
+
+.content-quemsomos{
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+
+.article-quem-somos{
+
+    /* FLOAT É UMA BOA OPÇÃO? */
+    float: right;
+    max-width: 620px;
+    padding: 80px;
+    margin:0 5%;
+
+    
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+    
+    
+
+}
+
+
+
+
+
+/* RESPONSIVO */
+
+@media (max-width: 600px){
+
+    .section-quem-somos{
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    .article-quem-somos{
+        text-align: center;
+        margin: auto;
+        max-width: 400px;
+        padding: 10%;
+        float: none;
+        
+
+    }
+}

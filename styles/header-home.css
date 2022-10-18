@@ -1,0 +1,24 @@
+.header{ 
+    background-image: url(../assets/assets/spidermanheader.jpg);
+}
+
+@media(max-width: 800px ){
+
+    .header{
+        background-image: url(../assets/assets/spidermanheader_mobile.jpg);
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
